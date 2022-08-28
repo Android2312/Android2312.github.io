@@ -4,6 +4,16 @@
     top: 0;
     left:0;
 }
+.anim_1{
+    animation: anim_1 4s infinite alternate;
+}
+@keyframes anim_1{
+        0%{
+        }
+        100%{
+            transform:rotateY(4turn);
+        }
+    }
 .flex{
     display:flex;
     justify-content:space-around;
@@ -24,6 +34,15 @@
 display: block;
 margin-left: auto;
 margin-right: auto;
+animation: anim_2 4s infinite alternate;
+}
+@keyframes anim_2{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform:scale(1);
+    }
 }
 .height{
     height: 80px;
@@ -102,6 +121,15 @@ a{
     font-size: 75px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+a:hover{
+    color: #6197FA;
+}
+h2:hover{
+    color: #6197FA;
+}
+p:hover{
+    color: #6197FA;
 }
 footer{
     background-color: black;
