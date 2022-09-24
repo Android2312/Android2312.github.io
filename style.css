@@ -160,7 +160,7 @@ footer{
 @media (max-width: 480px) {
     .up{
         bottom: 13px;
-        right: 160px;
+        right: 150px;
         z-index: 1;
     }
     header {
