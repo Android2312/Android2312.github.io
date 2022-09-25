@@ -160,8 +160,9 @@ footer{
 @media (max-width: 480px) {
     .up{
         bottom: 13px;
-        right: 170px;
+        right: 100px;
         z-index: 1;
+        font-size: 30px;
     }
     header {
         height: 4%;
@@ -176,6 +177,9 @@ footer{
  .h1{
     font-size:32px;
  }
+ .a{
+    font-size:35px;
+ }
 }   
 /* телефоны горизонтально */
 @media (max-width: 767px) {
@@ -183,5 +187,16 @@ footer{
         height: 4%;
         width: 100%;
     }
-
+.a{
+    font-size: 70px;
+}
+.displayed{
+    width:70%;
+}
+.up{
+    bottom: 13px;
+    right: 12px;
+    z-index: 1;
+    font-size: 30px;
+}
 }
